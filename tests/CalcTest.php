@@ -61,14 +61,11 @@ class CalcTest extends TestCase{
         $this->assertEquals(0, $this->calculadora->getTotal());
     }
 
-    //Teste 6
+    //Teste 7
     public function testExponenciacao(){
         $this->calculadora->setNumeros(2,3);
         $this->calculadora->exponenciar();
         $this->assertEquals(8, $this->calculadora->getTotal());
     }
-
-    
-
 }
 

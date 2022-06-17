@@ -3,7 +3,7 @@
         'name' => 'ricardobrunoc/calc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'add5ab0304b2d36ae09be6ce69f471d381924223',
+        'reference' => 'f5176de8343b194ddace01a9899f7cc4c7e9a3d4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -148,7 +148,7 @@
         'ricardobrunoc/calc' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'add5ab0304b2d36ae09be6ce69f471d381924223',
+            'reference' => 'f5176de8343b194ddace01a9899f7cc4c7e9a3d4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
