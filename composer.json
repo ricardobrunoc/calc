@@ -1,4 +1,6 @@
 {
+    "name": "ricardobrunoc/calc",
+    "description": "Atividade 3 de eng de soft",
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     }
