@@ -29,6 +29,12 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
 
+    - name: Entra na vendor
+      run: vendor/bin
+
+    - name: Remover a vendor
+      run: rm -Rf vendor
+
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
 
@@ -37,6 +43,5 @@ jobs:
 
     - name: Run test suite
       run: composer run-script test
-
-      
+    
     
