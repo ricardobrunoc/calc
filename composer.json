@@ -14,7 +14,6 @@
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "options": "--user root"
+        "test": "vendor/bin/phpunit"
     }
 }
