@@ -33,3 +33,7 @@ $exponenciacao = $calculadora->getTotal();
 
 
 header("Location:index.php?soma=".$soma."&subtracao=".$subtracao."&divisao=".$divisao."&multiplicacao=".$multiplicacao."&fatorial1=".$fatorial1."&fatorial2=".$fatorial2."&exponenciacao=".$exponenciacao);
+
+//so pra testar
+
+?>
