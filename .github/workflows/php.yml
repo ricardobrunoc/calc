@@ -29,11 +29,8 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
 
-    - name: Entra na vendor
-      run: vendor/bin
-
     - name: Remover a vendor
-      run: rm -Rf vendor
+      run: rm -Rf vendor/bin
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
